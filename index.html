@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Provisional Result</title>
+<style>
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.div {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.9em;
+  margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+  width: calc(100% - 12px);
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.captcha-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.captcha-image {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+</style>
+</head>
+<body>
+
+<div>
+  <h2>PROVISIONAL RESULT OF ODD SEMESTER EXAMINATION HELD IN THE MONTH JANUARY-FEBRUARY 2025</h2>
+
+  <div class="input-group">
+    <label for="course">Course</label>
+    <select id="course">
+      <option value="5-year-ba-llb">5 Year B.A. LL.B. (MajMin Sys)</option>
+    </select>
+  </div>
+
+  <div class="input-group">
+    <label for="semester">Semester</label>
+    <select id="semester">
+      <option value="251-1">251-1 Semester (100 Pattern)</option>
+    </select>
+  </div>
+
+  <div class="input-group">
+    <label for="registration">Registration Number</label>
+    <input type="text" id="registration" value="44724251008">
+  </div>
+
+  <div class="input-group captcha-container">
+    <div class="captcha-image">
+      HPF6Z
+    </div>
+    <input type="text" id="captcha" placeholder="Enter Captcha">
+  </div>
+
+  <button> <a href="new.html">GET RESULT</a></button>
+</div>
+
+</body>
+</html>
